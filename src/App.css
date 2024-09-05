@@ -1,0 +1,19 @@
+* {
+    user-select: none;
+}
+
+#root {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round';
+    position: relative;
+}
+
+td {
+    text-align: center;
+    padding: .5rem 1rem;
+    border: 2px solid black;
+    font-size: .85rem;
+}
